@@ -1,8 +1,14 @@
-baseURL: "https://carive47.github.io/profile/"
+baseURL: "https://carive47.github.io/"
+
 publishDir: "docs"
 languageCode: "es"
 title: "My Profile"
 theme: "hugo-profile"
+
+relativeURLs: true
+canonifyURLs: true
+uglyURLs: false
+
 
 
 outputs:
