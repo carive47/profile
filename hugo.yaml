@@ -37,17 +37,17 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+  # main:
+  #  - identifier: blog
+  #    name: Blog
+  #    title: Blog posts
+  #    url: /blogs
+  #    weight: 1
+  #  - identifier: gallery
+  #    name: Gallery
+  #    title: Blog posts
+  #    url: /gallery
+  #    weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -299,6 +299,69 @@ params:
           - Developed an automated reporting system to provide real-time operational insights.
 
 
+  # Experience2
+  experience2:
+    enable: true
+    title: "Independent Experience"
+    items:
+      - job: "Co founder Landazuri"
+        company: "Landazuri"
+        companyUrl: "https://www.dlocal.com/"
+        date: "Jan 2023 - Dec 2024"
+        featuredLink:
+          enable: False
+          name: "View the project"
+          # url: "https://example.com"
+        info:
+          enable: true
+          content: This is a NSDQ company. I worked as a data scientis for more than one year in Dlocal.
+        content: 
+          - "Transformed fraud prevention strategies by integrating Machine Learning and automation, reducing the chargeback rate from 6% to 0.8% while increasing conversion rates from 56% to 87%."
+          - "Developed dashboards and intelligent alerts for early fraud detection, significantly improving response times."
+          - "Implemented automated Python pipelines for financial metrics analysis, streamlining fraud detection workflows and enhancing operational efficiency."
+          - "Led the optimization of fraud detection rules, reducing false positives and improving customer experience."
+          - "Conducted A/B testing to fine-tune risk assessment models, achieving a balance between security and transaction approval rates."
+
+      - job: "Crypto trader"
+        company: "propia"
+        companyUrl: "https://example.com"
+        date: "Sep 2020 - Dec 2021"
+        featuredLink:
+          enable: False
+          url: "https://example.com"
+        info:
+          enable: False
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |
+          - Designed a data-driven project management methodology that optimized bidding processes and contract execution.
+
+          - Developed interactive dashboards in Google Data Studio, enhancing decision-making in large-scale energy projects.
+
+          - Automated reporting processes, reducing manual workload and improving data consistency.
+
+          - Provided data insights that led to a 20% increase in project efficiency (Cost Reduction) and a more accurate forecasting system for budget planning.
+
+      - job: "Freelancer"
+        company: "Simetrik"
+        companyUrl: "https://www.simetrik.com/"
+        date: "Apr 2021 - Sep 2021"
+        info:
+          enable: false
+        featuredLink:
+          enable: False
+          url: "https://example.com"
+        content: |
+          - Participated the integration of MercadoLibre’s transactional data into Simetrik’s financial reconciliation platform.
+
+          - Developed SQL, Python, and Snowflake-based solutions to optimize data consistency in financial transactions.
+
+          - Designed automated data pipelines, reducing processing time by 50% and improving data accuracy for financial analysis.
+
+          - Collaborated with cross-functional teams to enhance system scalability and maintainability.
+
+
+
+
   # projects
   projects:
     enable: true
@@ -351,7 +414,107 @@ params:
           - "Cost Efficiency"
           - "Negotiation"
           - "Driven Logistics"
-        
+
+      - title: "pipe line Wseeds"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "pronostico uniban"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "app landazuri"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "gestion portafolio y dashboard"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "automatizacion notarias"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "IoT Landazuri"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "App finanzas personales"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "pipe line automation analisis fraude"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "ml model for fraud prevention"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "Co2 Model"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+
+      - title: "cost Model"
+        content: "asdasluh"
+        image: /images/projects/jeringa.png
+        featured:
+          name: let me show you
+          link: 
+        badges:
+          - "ilbjl"
+      
+
 
 
   # Education
