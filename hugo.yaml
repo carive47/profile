@@ -1,8 +1,8 @@
 baseURL: "https://carive47.github.io/"
 
 publishDir: "docs"
-languageCode: "es"
-title: "My Profile"
+languageCode: "en-us"
+title: "Camilo Ariza Profile"
 theme: "hugo-profile"
 
 relativeURLs: true
@@ -133,8 +133,8 @@ params:
     menus:
       disableAbout: false
       disableExperience: false
-      disableEducation: false
       disableProjects: false
+      disableEducation: false
       disableAchievements: false
       disableContact: false
 
@@ -153,7 +153,7 @@ params:
 
                 
                 contact:   ca.ri.ve47@gmail.com"
-    image: /images/hero2.jpeg
+    image: /images/hero.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -180,7 +180,7 @@ params:
     title: "About Me"
     image: "/images/me.JPG"
     content: |
-      I am a data scientist with expertise in artificial intelligence, machine learning, and process automation. My main value lies in understanding complex problems and implementing efficient technological solutions that generate business value across industries. I thrive on learning and adapting to new technologies to optimize decision-making and operational efficiency.
+      I am a data scientist with expertise in machine learning, and process automation. My main value lies in understanding complex problems and implementing efficient technological solutions that generate business value across industries. I thrive on learning and adapting to new technologies to optimize decision-making and operational efficiency.
   
 
     skills:
@@ -284,6 +284,7 @@ params:
         date: "Apr 2019 - Mar 2021"
         featuredLink:
           enable: True
+          name: "published article"
           url: "https://medium.com/kiwibot-engineering/simulation-based-negotiation-for-delivery-robots-5756c932826e?source=user_profile_page---------0-------------f7fa57811716----------------------"
         content: |
           - Developed a real-time cost model to optimize the operational efficiency of the autonomous delivery robot fleet.
@@ -295,48 +296,109 @@ params:
           - Created predictive models to enhance delivery routing and time efficiency, reducing operational costs.
 
           - Developed an automated reporting system to provide real-time operational insights.
-      
+
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Camilo Profile
+        content: My skills, academic background, and professional experience showcased on a personal website built with a Hugo template and deployed via GitHub.
+        image: /images/projects/profile.PNG
+        featured:
+          name: link to profile
+          link: https://carive47.github.io/profile/
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+          - "HTML"
+          - "Github"
+          - "CSS"
+          - "Yaml"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/carive47/profile
+          
+
+      - title: "Forecasting Model for End-to-End Medical Retail Optimization Strategy"
+        content: ARIMA-based demand forecasting model for medical retail, optimizing procurement, inventory, and logistics costs by 35%. Enabled data-driven pricing, reduced stockouts by 15%, and identified expansion opportunities. Built in Python, integrated with ERP systems to align supply chain efficiency with strategic growth—proving analytics can transform operational and financial performance
+        image: /images/projects/jeringa.png
+        featured:
+          name: Let me show you
+          link: www.medium.com
+        badges:
+          - "arima"
+          - "python"
+          - "forecasting"
+          - "logistics"
+          - 
+
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: Hugo Profile V2
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Business Administration"
+      - title: "Bachelor of Business Administration"
         school:
           name: "University of Los Andes, Colombia"
           url: "https://www.uniandes.edu.co/"
         date: "2014 - 2018"
         GPA: "4.2 out of 5.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Economy"
+          I developed a strategic and innovative approach to business—combining analytical thinking, technology-driven solutions, and a deep understanding of stakeholder dynamics to drive organizational growth and competitiveness
+          
+            Extracurricular Activities:
+            - Finance Club Member at UniAndes – Engaged in market analysis and investment simulations.
+            - Consultant at UniAndes’ In-House Consulting Firm – Solved real-world business challenges for local clients.
+            - Teaching Assistant for Corporate Finance – Mentored peers in financial modeling and strategic decision-making.
+      - title: "Bachelor of Science in Economics"
         school:
           name: "University of Los Andes, Colombia"
           url: "https://www.uniandes.edu.co/"
         date: "2014 - 2018"
         GPA: "3.9 out of 5.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Economics graduate with a quantitative edge: mathematical modeling, statistical analysis, and incentive-based frameworks to dissect markets and economic trends. Passionate about linking theory to real-world micro/macro contexts.
+          
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
+            Extracurricular Activities
+            - Teaching Assistant for Calculus – Guided students through advanced mathematical concepts for economic applications.
+            - Teaching Assistant for Econometrics – Supported peers in statistical modeling and data-driven economic analysis.
+            - My undergraduate thesis, "Characterization of Inefficient Electricity Consumers: The Case of Bogotá’s Residential Users", was published by Colombia’s Ministry of Science and Technology—demonstrating my ability to translate economic analysis into actionable policy insights
+        featuredLink:  
           enable: true
-          name: "My academic record"
-          url: "https://example.com"
+          name: "My undergraduate thesis"
+          url: "https://redcol.minciencias.gov.co/Record/UNIANDES2_ff4783b427c92fa332699cb41ba13daa/Description#details"
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+          name: "Colegio Refous"
+          url: "https://www.colegiorefous.edu.co/"
+        #GPA: "4.2 out of 5.0"
+        content: |-
+          My high school emphasized critical thinking, modern mathematics, and socio-environmental awareness through experiential, participatory learning. As students, we were protagonists of our education—engaged in collaborative projects, debates, and hands-on activities that sharpened our problem-solving skills and prepared us for real-world challenges
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
   # Achievements
@@ -361,55 +423,6 @@ params:
         content: Contributed to a open source project.
         url: https://example.com
 
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
