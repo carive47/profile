@@ -284,8 +284,9 @@ params:
         date: "Apr 2019 - Mar 2021"
         featuredLink:
           enable: True
-          name: "published article"
-          url: "https://medium.com/kiwibot-engineering/simulation-based-negotiation-for-delivery-robots-5756c932826e?source=user_profile_page---------0-------------f7fa57811716----------------------"
+          name: "projects"
+          url: "#projects"
+
         content: |
           - Developed a real-time cost model to optimize the operational efficiency of the autonomous delivery robot fleet.
 
@@ -323,35 +324,35 @@ params:
           
 
       - title: "Forecasting Model for End-to-End Medical Retail Optimization Strategy"
-        content: ARIMA-based demand forecasting model for medical retail, optimizing procurement, inventory, and logistics costs by 35%. Enabled data-driven pricing, reduced stockouts by 15%, and identified expansion opportunities. Built in Python, integrated with ERP systems to align supply chain efficiency with strategic growth—proving analytics can transform operational and financial performance
+        content: "ARIMA-based demand forecasting model for medical retail, optimizing procurement, inventory, and logistics costs by 35%. Enabled data-driven pricing, reduced stockouts by 15%, and identified expansion opportunities. Built in Python, integrated with ERP systems to align supply chain efficiency with strategic growth—proving analytics can transform operational and financial performance."
         image: /images/projects/jeringa.png
         featured:
-          name: Let me show you
-          link: www.medium.com
+          name: let me show you
+          link: https://medium.com/@ca.ri.ve47/optimizing-medical-retail-with-arima-forecasting-cost-reduction-strategic-expansion-356a75eb538d
         badges:
           - "arima"
           - "python"
-          - "forecasting"
+          - "Demand forecasting"
           - "logistics"
-          - 
+          - "Time Series Analysis"
 
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - id: "kiwi-simulation"
+        title: "Kiwibot : Optimizing Logistics. A Data-Driven Approach to Autonomous Food Delivery"
+        content: "Kiwibot is revolutionizing last-mile food delivery with autonomous robots. Using advanced simulation, data analytics, and AI-driven optimization, we refine logistics models to maximize efficiency, minimize costs, and enhance service levels. Our simulation-driven insights empower smarter routing, demand forecasting, and resource allocation, ensuring seamless, scalable, and data-backed robotic delivery solutions."
+        image: /images/projects/kiwi.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: let me show you
+          link: https://medium.com/@ca.ri.ve47/optimizing-logistics-with-kiwibot-a-data-driven-approach-to-autonomous-food-delivery-ad179ab33eb3
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Simulation"
+          - "Performance Metrics"
+          - "Optimization"
+          - "Demand Forecasting"
+          - "Cost Efficiency"
+          - "Negotiation"
+          - "Driven Logistics"
+        
+
 
   # Education
   education:
