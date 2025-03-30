@@ -178,7 +178,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.JPG"
+    image: "/images/me.jpg"
     content: |
       I am a data scientist with expertise in machine learning, and process automation. My main value lies in understanding complex problems and implementing efficient technological solutions that generate business value across industries. I thrive on learning and adapting to new technologies to optimize decision-making and operational efficiency.
   
@@ -305,7 +305,7 @@ params:
     items:
       - title: Camilo Profile
         content: My skills, academic background, and professional experience showcased on a personal website built with a Hugo template and deployed via GitHub.
-        image: /images/projects/profile.PNG
+        image: /images/projects/profile.png
         featured:
           name: link to profile
           link: https://carive47.github.io/profile/
