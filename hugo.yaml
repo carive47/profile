@@ -160,7 +160,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/10-NWDQcLpZXlTi69mduiCjYccd4Tbd8_/view?usp=sharing"
+      url: "https://drive.google.com/file/d/16UhVIm5Yp9stgVFDaX0-3siWbZZMD5g_/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -171,8 +171,8 @@ params:
           url: https://github.com/carive47
         - icon: fab fa-medium
           url: https://medium.com/@camilo-ariza
-        - icon: fab fa-upwork-1
-          url: https://www.upwork.com/freelancers/~010edcf858d4655243
+  #      - icon: fab fa-upwork-1
+  #        url: https://www.upwork.com/freelancers/~010edcf858d4655243
 
   # About
   about:
@@ -416,103 +416,89 @@ params:
           - "Driven Logistics"
 
       - title: "pipe line Wseeds"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+        content: ""
+        
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
+          
 
-      - title: "pronostico uniban"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+      - title: "pronostico Exportaciones uniban"
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
 
       - title: "app landazuri"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
 
       - title: "gestion portafolio y dashboard"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
 
       - title: "automatizacion notarias"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
 
-      - title: "IoT Landazuri"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+      - title: "Automatizacion finanzas personales"
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
-
-      - title: "App finanzas personales"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
-        featured:
-          name: let me show you
-          link: 
-        badges:
-          - "ilbjl"
 
       - title: "pipe line automation analisis fraude"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
 
-      - title: "ml model for fraud prevention"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
-        featured:
-          name: let me show you
-          link: 
-        badges:
-          - "ilbjl"
 
       - title: "Co2 Model"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
 
-      - title: "cost Model"
-        content: "asdasluh"
-        image: /images/projects/jeringa.png
+
+      - title: "Live cost Model"
+        content: ""
+        image: /images/projects/.png
         featured:
+          enable: false
           name: let me show you
           link: 
         badges:
-          - "ilbjl"
+
       
 
 
@@ -592,7 +578,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Got a project, a problem, or just a random thought to debate? My inbox is your inbox! Let’s build something cool, solve a puzzle, or geek out over ideas. Coffee chats, job offers, and existential questions all welcome!
     btnName: Mail me
     btnLink: mailto:ca.ri.ve47@gmail.com
     # formspree:
