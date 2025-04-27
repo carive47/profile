@@ -170,9 +170,9 @@ params:
         - icon: fab fa-github
           url: https://github.com/carive47
         - icon: fab fa-medium
-          url: https://medium.com/@camilo-ariza
-  #      - icon: fab fa-upwork-1
-  #        url: https://www.upwork.com/freelancers/~010edcf858d4655243
+          url: https://medium.com/@ca.ri.ve47
+        - icon: fab fa-upwork-1
+          url: https://www.upwork.com/freelancers/~010edcf858d4655243
 
   # About
   about:
@@ -247,7 +247,7 @@ params:
           url: "https://example.com"
         info:
           enable: False
-          content: I worked as a software developer for more than one year in Amazon.
+          content: 
         content: |
           - Designed a data-driven project management methodology that optimized bidding processes and contract execution.
 
@@ -305,27 +305,27 @@ params:
     title: "Independent Experience"
     items:
       - job: "Co founder Landazuri"
-        company: "Landazuri"
-        companyUrl: "https://www.dlocal.com/"
-        date: "Jan 2023 - Dec 2024"
+        company: "Landazuri Chocolate"
+        companyUrl: "IG Landazuri"
+        date: "Jan 2018 - Present"
         featuredLink:
           enable: False
           name: "View the project"
           # url: "https://example.com"
         info:
           enable: true
-          content: This is a NSDQ company. I worked as a data scientis for more than one year in Dlocal.
+          content: This is a family entrepeneurship focus on sustainability and prime quality supported by tech, innovation and good practices.
         content: 
-          - "Transformed fraud prevention strategies by integrating Machine Learning and automation, reducing the chargeback rate from 6% to 0.8% while increasing conversion rates from 56% to 87%."
-          - "Developed dashboards and intelligent alerts for early fraud detection, significantly improving response times."
-          - "Implemented automated Python pipelines for financial metrics analysis, streamlining fraud detection workflows and enhancing operational efficiency."
-          - "Led the optimization of fraud detection rules, reducing false positives and improving customer experience."
-          - "Conducted A/B testing to fine-tune risk assessment models, achieving a balance between security and transaction approval rates."
+          - "Created label, identity, packaging, and strategy to develope products"
+          - "created needed logistics process to sustain an stable and scalable value chain"
+          - "created app to registrate gains, costs, buys, and evreything around the flow of money and inventory and clients. also a dashboard to monitoring finanfces. sells, marketing and procuremtent"
+          - "invest and manage the cacao farm and stuff"
+          - "strategy on board members"
 
-      - job: "Crypto trader"
-        company: "propia"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: ""
+        company: "Independet Crypto Trader"
+        companyUrl: 
+        date: "Sep 2020 - Present"
         featuredLink:
           enable: False
           url: "https://example.com"
@@ -333,31 +333,24 @@ params:
           enable: False
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          - Designed a data-driven project management methodology that optimized bidding processes and contract execution.
-
-          - Developed interactive dashboards in Google Data Studio, enhancing decision-making in large-scale energy projects.
-
-          - Automated reporting processes, reducing manual workload and improving data consistency.
-
-          - Provided data insights that led to a 20% increase in project efficiency (Cost Reduction) and a more accurate forecasting system for budget planning.
-
-      - job: "Freelancer"
-        company: "Simetrik"
+          - Learned and Implemented the Chart Champions's Strategy and Jaime Merino´s Strategy with a annual margin around 15%
+          - Created  my own app to registrate and follow each position, budgets and risk managment. Dashboard to visualize key metrics
+          - Valuatoin increase around 10X since started"
+      - job: ""
+        company: "Freelancer"
         companyUrl: "https://www.simetrik.com/"
-        date: "Apr 2021 - Sep 2021"
+        date: "Sep 2024 - Present"
         info:
           enable: false
         featuredLink:
           enable: False
           url: "https://example.com"
         content: |
-          - Participated the integration of MercadoLibre’s transactional data into Simetrik’s financial reconciliation platform.
-
-          - Developed SQL, Python, and Snowflake-based solutions to optimize data consistency in financial transactions.
-
-          - Designed automated data pipelines, reducing processing time by 50% and improving data accuracy for financial analysis.
-
-          - Collaborated with cross-functional teams to enhance system scalability and maintainability.
+          - automation of proceses in goverment notaries to create and validate escrituras de compraventa
+          - pipe line to .... project we seeds -- maintenance and updating, and custom, document and represent in meetings
+          - Insights research and understanding and new important knowledge about farmers data
+          - uniban exports forecast
+          - 
 
 
 
@@ -415,88 +408,14 @@ params:
           - "Negotiation"
           - "Driven Logistics"
 
-      - title: "pipe line Wseeds"
-        content: ""
-        
+
+      - title: "traceability system Importance"
+        content: "The article explains the benefits of having a centralized system for investment management, which provides a clear and organized view of the portfolio. This system functions as a 'personal financial GPS' and offers advantages such as in-depth performance analysis, understanding past decisions, measuring risk and profitability, simplifying tax reporting, and fostering more disciplined investing"
+        image: /images/projects/fin_dash.png
         featured:
           enable: false
           name: let me show you
-          link: 
-        badges:
-          
-
-      - title: "pronostico Exportaciones uniban"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
-        badges:
-
-      - title: "app landazuri"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
-        badges:
-
-      - title: "gestion portafolio y dashboard"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
-        badges:
-
-      - title: "automatizacion notarias"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
-        badges:
-
-      - title: "Automatizacion finanzas personales"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
-        badges:
-
-      - title: "pipe line automation analisis fraude"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
-        badges:
-
-
-      - title: "Co2 Model"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
-        badges:
-
-
-      - title: "Live cost Model"
-        content: ""
-        image: /images/projects/.png
-        featured:
-          enable: false
-          name: let me show you
-          link: 
+          link: https://medium.com/@ca.ri.ve47/how-to-build-your-personal-financial-gps-as-an-independent-investor-7b2025cfdd61
         badges:
 
       
