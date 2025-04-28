@@ -360,24 +360,30 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Camilo Profile
-        content: My skills, academic background, and professional experience showcased on a personal website built with a Hugo template and deployed via GitHub.
-        image: /images/projects/profile.png
+
+      - title: "Own Professional Website"
+        content: "This project involves building a personal professional website using GitHub Pages. Designed with simplicity and functionality in mind, the website showcases my academic, professional, and freelance experience. It features a clean, responsive layout optimized for both desktop and mobile, and is maintained through version control with Git. The project highlights the importance of having a personal online presence and demonstrates the practical use of HTML, CSS, and GitHub for easy updates and future scalability."
+        image: /images/projects/profile2.png
         featured:
-          name: link to profile
-          link: https://carive47.github.io/profile/
+          enable: false
+          name: let me show you
+          link: https://medium.com/@ca.ri.ve47/how-to-create-your-own-professional-website-even-if-youre-not-an-expert-b9820ed35f19
         badges:
-          - "Hugo"
+          - "Github"
+          - "Personal Branding"
+          - "Web Developement"
+          - "Portfolio"
+          - "Profile"
+          - "Comunication"
           - "Bootstrap"
           - "Javascript"
           - "HTML"
-          - "Github"
           - "CSS"
           - "Yaml"
         links:
           - icon: fab fa-github
             url: https://github.com/carive47/profile
-          
+         
 
       - title: "Forecasting Model for End-to-End Medical Retail Optimization Strategy"
         content: "ARIMA-based demand forecasting model for medical retail, optimizing procurement, inventory, and logistics costs by 35%. Enabled data-driven pricing, reduced stockouts by 15%, and identified expansion opportunities. Built in Python, integrated with ERP systems to align supply chain efficiency with strategic growth—proving analytics can transform operational and financial performance."
@@ -417,9 +423,12 @@ params:
           name: let me show you
           link: https://medium.com/@ca.ri.ve47/how-to-build-your-personal-financial-gps-as-an-independent-investor-7b2025cfdd61
         badges:
-
-      
-
+          - "Investing"
+          - "trading"
+          - "Analytics"
+          - "Dashboard"
+          - "Finance"
+          - "Strategy"
 
 
   # Education

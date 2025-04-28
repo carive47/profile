@@ -1,0 +1,66 @@
+      - title: "pipe line Wseeds"
+        content: ""
+        
+        featured:
+          enable: false
+          name: let me show you
+          link: 
+        badges:
+          
+
+      - title: "pronostico Exportaciones uniban"
+        content: ""
+        image: /images/projects/.png
+        featured:
+          enable: false
+          name: let me show you
+          link: 
+        badges:
+
+      - title: "app landazuri"
+        content: ""
+        image: /images/projects/.png
+        featured:
+          enable: false
+          name: let me show you
+          link: 
+        badges:
+
+      - title: "automatizacion notarias"
+        content: ""
+        image: /images/projects/.png
+        featured:
+          enable: false
+          name: let me show you
+          link: 
+        badges:
+
+      - title: "Automatizacion finanzas personales"
+        content: ""
+        image: /images/projects/.png
+        featured:
+          enable: false
+          name: let me show you
+          link: 
+        badges:
+
+      - title: "Co2 Model"
+        content: ""
+        image: /images/projects/.png
+        featured:
+          enable: false
+          name: let me show you
+          link: 
+        badges:
+
+
+      - title: " Cost Model by order real time"
+        content: ""
+        image: /images/projects/.png
+        featured:
+          enable: false
+          name: let me show you
+          link: 
+        badges:
+
+   (git status → git add . → git commit -m "Agregando imágenes" → git push).
